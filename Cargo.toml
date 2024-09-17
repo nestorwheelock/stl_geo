@@ -1,0 +1,10 @@
+[package]
+name = "stl_geo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["cookies", "blocking"] }
+cookie_store = "0.14"
+scraper = "0.14"   # For parsing the HTML
+url = "2.2"  # Add the url crate here
